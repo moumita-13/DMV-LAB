@@ -35,9 +35,3 @@ plt.xlabel("x-axis")
 plt.ylabel("y-axis")
 plt.grid(True)
 plt.show()
-
-# # give me the link for a downloadable small CSV kaggle dataset of 30x30 that can be used for data visualization and exploration 
-# and give the python code to perform the following:-
-# 1. To Identify the Outliers and Missing Data (IF ANY - in this dataset)
-# 2. To Summarize data and present the results in forms of charts and graphs:-
-# Bar chart, Scatter plot, pie chart, stair chart, Line Chart....there should be proper lables and grid in all 

@@ -1,32 +1,3 @@
-# import turtle
-
-# # Set up the screen
-# screen = turtle.Screen()
-# screen.title("Moving Circle Animation")
-# screen.bgcolor("black")
-# screen.setup(width=600, height=400)
-
-# # Create the circle object
-# circle = turtle.Turtle()
-# circle.shape("circle")
-# circle.color("cyan")
-# circle.shapesize(2) # Size of the circle
-# circle.penup()
-# circle.speed(0) # Fastest animation speed
-
-# # Animation loop
-# while True:
-#     circle.forward(5) # Move forward
-    
-#     # Check boundaries for wrapping
-#     if circle.xcor() > 300:
-#         circle.setx(-300)
-#     elif circle.xcor() < -300:
-#         circle.setx(300)
-    
-#     # Add a slight turn to make it look spiral/dynamic
-#     circle.right(2)
-
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
